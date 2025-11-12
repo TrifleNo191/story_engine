@@ -1,31 +1,47 @@
 Hello readers,
 My name is Andraž Đurič, and I developed the Story Engine architecture you're about to use.
+
+
 What This Is:
 The Story Engine is a formal specification for stateful narrative simulation using large language models.
-It transforms AI from an improvisational storyteller into a coherent simulation engine; maintaining hidden state, enforcing consequences, tracking complex systems, and generating emergent narratives that feel alive.
+It transforms AI from an improvisational storyteller into a coherent simulation engine; maintaining hidden state, enforcing consequences,
+tracking complex systems, and generating emergent narratives that feel alive.
 This isn't "AI writing a story." This is a world simulator that happens to express itself through narrative.
+
+
 Why I Built This:
 Two sparks:
-A small, practical one: I was reading a physical book in a dim room, too lazy to stand up and switch on the light. 
-I used my phone as a makeshift lamp. It was annoying. I thought: why can’t I just read this—beautifully—on the phone? Yes, e-books exist, but I couldn’t justify the spend at the time. 
-That irritation nudged a bigger idea: 
-what about endless, personalized stories in linguistic form, powered by AI?
+ A small, practical one: I was reading a physical book in a dim room, too lazy to stand up and switch on the light. 
+ I used my phone as a makeshift lamp. It was annoying. I thought: why can’t I just read this—beautifully—on the phone? 
+ Yes, e-books exist, but I couldn’t justify the spend at the time. 
+ That irritation nudged a bigger idea: 
+ what about endless, personalized stories in linguistic form, powered by AI?
+ 
+ A larger, philosophical one: I believe interactive, meaningful entertainment shouldn’t be gatekept by money or specialized tooling. 
+ With AI improving year over year, we’re edging toward abundant, individually tailored experiences—and, more broadly,
+ a plausible path toward post-scarcity dynamics. My hunch: the “last” product capitalism invests in is the one
+ that makes it obsolete; AI/AGI may be that product. Time will tell.
+
+Today’s AI storytelling often drifts, forgets, and contradicts itself. Structure helps. 
+This project is a demonstration that careful specification and system design can lift consistency and depth without expensive infrastructure. 
+The first version came together in under an hour (not counting testing); several iterations later, you’re seeing a cleaner, sturdier form.
 
 
-A larger, philosophical one: I believe interactive, meaningful entertainment shouldn’t be gatekept by money or specialized tooling. With AI improving year over year, we’re edging toward abundant, individually tailored experiences—and, more broadly, a plausible path toward post-scarcity dynamics. My hunch: the “last” product capitalism invests in is the one that makes it obsolete; AI/AGI may be that product. Time will tell.
-
-
-Today’s AI storytelling often drifts, forgets, and contradicts itself. Structure helps. This project is a demonstration that careful specification and system design can lift consistency and depth without expensive infrastructure. The first version came together in under an hour (not counting testing); several iterations later, you’re seeing a cleaner, sturdier form.
 The Mission:
 Make narrative simulation accessible to everyone.
+
 This means:
 Writers can create complex interactive fiction without coding
 Educators can build historical simulations without game engines
 Players can experience deep, reactive stories without $60 price tags
 Communities can collaborate on shared worlds without corporate gatekeeping
 Multilingual creators can build authentic cultural experiences
+
+
 Licensing & Use:
+
 This work is released under the MIT License.
+
 You are free to:
 Use commercially or personally
 Modify and extend
@@ -33,24 +49,35 @@ Redistribute
 Build products on top of it
 Keep your modifications private or share them
 No attribution required, but appreciated.
+
+
 If you improve this, I encourage you to:
 Share your improvements openly
 Keep derivative works free when possible
 Credit the community of contributors
 Help others understand and use it
+
+
 What I Hope You Do:
 Break it. Find the edge cases. Discover where it fails. Document the failures.
 Improve it. Add systems. Optimize algorithms. Create better validation. Share your work.
 Build with it. Create worlds. Write tools. Make games. Teach with it. Experiment wildly.
 Keep it free. If you build something commercial, consider how you can give back—whether through open-source tools, free tiers, or educational access.
 Collaborate. This is bigger than any one person. Share knowledge. Build together.
+
+
 Acknowledgments:
-This architecture stands on the shoulders of interactive fiction pioneers (Emily Short, Inkle, Choice of Games), decades of game-design wisdom (from Zork’s hidden world modeling to Dwarf Fortress’s emergent simulation), tabletop RPG state management, and modern AI capabilities. Structure doesn’t constrain creativity; it enables it.
+This architecture stands on the shoulders of interactive fiction pioneers (Emily Short, Inkle, Choice of Games),
+decades of game-design wisdom (from Zork’s hidden world modeling to Dwarf Fortress’s emergent simulation), tabletop RPG state management,
+and modern AI capabilities. Structure doesn’t constrain creativity; it enables it.
+
+
 Contact & Community:
 I don't need credit, but I'd love to see what you build.
 If you create something interesting, share it with the community. 
 If you improve the architecture, publish your changes. 
 If you discover insights, write about them.
+
 — Andraž Đurič
  November 2025
 
